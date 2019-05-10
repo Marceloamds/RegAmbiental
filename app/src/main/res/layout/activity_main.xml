@@ -8,7 +8,7 @@
         tools:context=".MainActivity" android:background="#E9FFB7">
     <ImageView
             android:layout_width="294dp"
-            android:layout_height="332dp" app:srcCompat="@drawable/regambientallogo"
+            android:layout_height="332dp" app:srcCompat="@drawable/regAmbientalLogo"
             android:id="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"

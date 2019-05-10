@@ -5,6 +5,22 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/primaryLight"
         tools:context=".LegislacaoActivity">
 
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/logo_recortado"
+            android:id="@+id/imageView3" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="24dp" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac fringilla nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut gravida sodales volutpat. Cras ligula lectus, venenatis at eros eget, mollis pellentesque eros. Quisque posuere dolor sit amet odio facilisis, in convallis enim feugiat. Etiam sed enim dolor. Integer blandit nibh ac nunc placerat, non pulvinar dui tempor. Maecenas eu finibus risus. Aliquam sagittis eros nec purus maximus congue. Sed sit amet urna nisl. Vivamus a lorem ut nulla feugiat vestibulum.  Quisque ultrices ligula eget mi feugiat, a cursus magna convallis. Aenean sodales eros ac sollicitudin porttitor. Maecenas ut turpis a magna maximus fermentum. Mauris non gravida turpis, vehicula hendrerit justo. Quisque sem nisl, convallis eget vulputate vitae, facilisis a velit. Integer in augue felis. Curabitur non urna urna.  \n\nPellentesque malesuada dapibus ligula non ornare. Curabitur vehicula odio nisl, nec aliquet libero semper vitae. Nam mattis, lacus sit amet fringilla maximus, nulla nisi pellentesque leo, eu tristique est ligula at quam. Pellentesque eget tortor vel nisl bibendum elementum. Praesent malesuada volutpat nisl at viverra. Nam eget erat quis mi egestas volutpat. Maecenas dapibus consectetur magna ut tempus. Nulla maximus leo id nisl dapibus, nec dapibus elit tempus. Vivamus luctus tempus ante viverra sodales. In tempor porta mauris, vel rutrum augue. Aenean interdum euismod tortor scelerisque viverra. Curabitur venenatis diam vel dui convallis accumsan. Mauris tempor sem non dolor pulvinar, eget suscipit nunc hendrerit. Phasellus interdum sit amet elit non vulputate. Quisque sit amet ornare tellus. Aenean in diam vitae massa dictum venenatis id sit amet felis.  Suspendisse dolor lorem, iaculis eu consectetur et, aliquam sed ipsum. Sed suscipit, nisi nec hendrerit laoreet, purus nunc vehicula arcu, a varius orci ligula at nibh. Suspendisse ultrices, nisi et pretium ornare, nunc velit lobortis massa, eu convallis turpis sem auctor ligula. Sed ultrices, neque nec posuere venenatis, nisi enim sollicitudin nibh, a ullamcorper lacus ante in ligula. Praesent eu neque vulputate, semper justo sed, suscipit est. Vivamus quis blandit leo. Nulla finibus felis id posuere bibendum. Praesent ipsum elit, feugiat at facilisis ut, facilisis in odio. Quisque sagittis enim nibh, in ultricies enim pretium sed. Vivamus tristique dictum leo, sit amet suscipit ipsum gravida nec.  Suspendisse ut arcu et lacus viverra dapibus nec sit amet ex. Ut eget lectus sapien. Donec ornare quam quis erat condimentum gravida. In id metus non orci dignissim malesuada. Vivamus lobortis lectus feugiat magna interdum, at hendrerit arcu rhoncus. Nunc fermentum mi vitae nibh dapibus, ut luctus nibh blandit. Suspendisse egestas lacus id tellus consectetur convallis.  "
+            android:layout_width="0dp"
+            android:textColor="@android:color/black"
+            android:layout_height="0dp"
+            android:id="@+id/textView" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="16dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
