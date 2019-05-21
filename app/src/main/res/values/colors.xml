@@ -5,4 +5,15 @@
     <color name="colorAccent">#D81B60</color>
     <color name="primaryLight">#E9FFB7</color>
     <color name="primaryLightDark">#DAFF80</color>
+    <color name="backgroundPadrao">#E9FFB7</color>
+    <color name="estadosVerdeClaro">#6F8145</color>
+    <color name="estadosVerdeEscuro">#41713D</color>
+    <color name="estadosVermelho">#89484E</color>
+    <color name="estadosRoxo">#6F3959</color>
+    <color name="optionsCima">#708246</color>
+    <color name="optionsBaixo">#41713D</color>
+    <color name="botaoLegislacao">#627736</color>
+    <color name="botaoRelAmbiental">#2A5D22</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#00000000</color>
 </resources>
