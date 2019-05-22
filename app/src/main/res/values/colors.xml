@@ -6,14 +6,18 @@
     <color name="primaryLight">#E9FFB7</color>
     <color name="primaryLightDark">#DAFF80</color>
     <color name="backgroundPadrao">#E9FFB7</color>
-    <color name="estadosVerdeClaro">#6F8145</color>
-    <color name="estadosVerdeEscuro">#41713D</color>
-    <color name="estadosVermelho">#89484E</color>
-    <color name="estadosRoxo">#6F3959</color>
     <color name="optionsCima">#708246</color>
     <color name="optionsBaixo">#41713D</color>
     <color name="botaoLegislacao">#627736</color>
     <color name="botaoRelAmbiental">#2A5D22</color>
     <color name="branco">#FFFFFF</color>
     <color name="preto">#00000000</color>
+    <color name="estadosVerdeMS">#6F8145</color>
+    <color name="estadosVerdeMT">#41713D</color>
+    <color name="estadosVermelhoSP">#89484E</color>
+    <color name="estadosRoxoRJ">#6D3A59</color>
+    <color name="botaoMS">#637636</color>
+    <color name="botaoMT">#295E23</color>
+    <color name="botaoSP">#7B373C</color>
+    <color name="botaoRJ">#632D4D</color>
 </resources>

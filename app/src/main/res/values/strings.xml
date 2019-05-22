@@ -1,3 +1,9 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">Regulamento Ambiental</string>
+    <string name="botao_ms_texto">MS</string>
+    <string name="botao_mt_texto">MT</string>
+    <string name="botao_rj_texto">RJ</string>
+    <string name="botao_sp_texto">SP</string>
+
+
 </resources>

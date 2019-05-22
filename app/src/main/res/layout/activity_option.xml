@@ -18,7 +18,7 @@
 			android:layout_height="366dp"
 			android:background="@color/optionsCima"
 			android:id="@+id/linearLayout" app:layout_constraintTop_toTopOf="parent"
-			android:layout_marginTop="1dp" app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintEnd_toEndOf="parent">
 		<Button
 				android:text="Legislação"
