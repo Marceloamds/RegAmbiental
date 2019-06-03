@@ -6,7 +6,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		tools:context=".OptionActivity" android:id="@+id/constraintLayout">
-	<android.support.constraint.Guideline
+	<androidx.constraintlayout.widget.Guideline
 			android:id="@+id/guideline1"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
@@ -14,12 +14,12 @@
 			app:layout_constraintGuide_percent="0.5"/>
 
 	<androidx.constraintlayout.widget.ConstraintLayout
-			android:layout_width="411dp"
+			android:layout_width="395dp"
 			android:layout_height="366dp"
 			android:background="@color/optionsCima"
 			android:id="@+id/linearLayout" app:layout_constraintTop_toTopOf="parent"
 			app:layout_constraintStart_toStartOf="parent"
-			app:layout_constraintEnd_toEndOf="parent">
+			app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5">
 		<Button
 				android:text="Legislação"
 				android:layout_width="275dp"
@@ -54,10 +54,11 @@
 	</androidx.constraintlayout.widget.ConstraintLayout>
 	<ImageView
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" app:srcCompat="@drawable/arvoreTransparente"
+			android:layout_height="wrap_content" app:srcCompat="@drawable/arvoretransparente"
 			android:id="@+id/imageView6" app:layout_constraintTop_toTopOf="parent"
-			android:layout_marginTop="308dp" app:layout_constraintStart_toStartOf="parent"
+			android:layout_marginTop="316dp" app:layout_constraintStart_toStartOf="parent"
 			android:layout_marginStart="137dp" android:layout_marginEnd="137dp"
-			app:layout_constraintEnd_toEndOf="parent"/>
+			app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+			android:contentDescription="Imagem da logo com fundo transparente"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
